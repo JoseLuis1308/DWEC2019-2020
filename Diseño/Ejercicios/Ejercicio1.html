@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <p align="center"><h1>Curriculum Vitae</h1></p>
+    <fieldset>
+        <legend><h2>Datos Personales</h2></legend>
+        <form action="Ejercicio1.html" method="post">
+            <table align="center">
+                <tr>
+                    <td>
+                            Nombre:
+                    </td>
+                    <td>
+                        <input type="text" name="nombre" id="nombre" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                            Apellidos:
+                    </td>
+                    <td>
+                        <input type="text" name="apellidos" id="apellidos" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                            Correo electronico:
+                    </td>
+                    <td>
+                        <input type="text" name="email" id="email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                            Telefono:
+                    </td>
+                    <td>
+                        <input type="text" name="telefono" id="telefono" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                           Fecha de nacimiento:
+                    </td>
+                    <td>
+                        <input type="date" name="fechaNac" id="fechaNac" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                            Nacionalidad:
+                    </td>
+                    <td>
+                        <select>
+                            <option value="Española">Española</option>
+                            <option value="Ingles">Ingles</option>
+                            <option value="Frances">Frances</option>
+                            <option value="Americana">Americana</option>
+                            <option value="Italiana">Italiana</option>
+                        </select> 
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <input type="radio" value="Hombre" name="genero" id="genero" >Hombre
+                    </td>
+                    <td align="left">
+                        <input type="radio" value="Mujer" name="genero" id="genero" >Mujer
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend><h2>Habilidades</h2></legend>
+        <form action="Ejercicio1.html" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        Liderazgo:
+                    </td>
+                    <td>
+                        <input type="range" name="liderazgo" id="liderazgo" max="10" min="0" step="1" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Comunicacion:
+                    </td>
+                    <td>
+                        <input type="range" name="comunicacion" id="comunicacion" max="10" min="0" step="1" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Motivacion:
+                    </td>
+                    <td>
+                        <input type="range" name="motivacion" id="motivacion" max="10" min="0" step="1" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Vision de negocio:
+                    </td>
+                    <td>
+                        <input type="range" name="visionNegocio" id="visionNegocio" max="10" min="0" step="1" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend><h2>Idiomas</h2></legend>
+        <form action="Ejercicio1.html" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="castellano" id="castellano" value="castellano" />Castellano
+                    </td>
+                    <td>
+                        <input type="checkbox" name="inlges" id="inlges" value="ingles" />Ingles
+                    </td>
+                    <td>
+                        <input type="checkbox" name="frances" id="frances" value="frances" />Frances
+                    </td>
+                    <td>
+                        <input type="checkbox" name="aleman" id="aleman" value="aleman" />Aleman
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="castellano" id="castellano" value="castellano" />Italiano
+                    </td>
+                    <td>
+                        <input type="checkbox" name="portuges" id="portuges" value="portuges" />Portugues
+                    </td>
+                    <td>
+                        <input type="checkbox" name="" id="" value="" />Chino
+                    </td>
+                    <td>
+                        <input type="checkbox" name="" id="" value="" />Japones
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+</body>
+</html>
