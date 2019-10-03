@@ -1,0 +1,9 @@
+/*Ejercicio 1 css*/
+*{
+    text-align: center;
+}
+
+a{
+    color: red;
+    border: 1px solid red;
+}

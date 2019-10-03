@@ -1,0 +1,19 @@
+/*Ejercicio2*/
+p,div{
+    color: white;
+    background-color: orange;
+}
+h1,h2,h3,h4,h5.h6{
+    text-align: center;
+    background-color: gray;
+    border: 3px solid black;
+}
+.amarillo{
+    background-color: yellow;
+    align-self: center;
+    width: 200px;
+    height: 200px;
+}
+#rojo{
+    color: red;
+}

@@ -17,27 +17,8 @@ function pintar(){
     for(let i=1;i<=8;i++){
         cadena+="<tr>"
         for(let j=1;j<=8;j++){
-            if(i==1 || i==7  )
-            {
-                if(j%2==0){
-                    //cadena+="<td>"+contador+"</td>";
                     cadena+="<td id='"+contador+"'></td>";
                     contador++;
-                }else{
-                cadena+="<td> </td>";
-                }
-            }else if(i==2 || i==8  )
-            {
-                if(j%2!=0){
-                // cadena+="<td>"+contador+"</td>";
-                cadena+="<td id='"+contador+"'></td>";
-                    contador++;
-                }else{
-                cadena+="<td> </td>";
-                }
-            }else{
-                cadena+="<td> </td>";
-            }
         }
         cadena+="</tr>"
     }
@@ -47,11 +28,8 @@ function pintar(){
     pintar=false;
 
     rellenar();
-
     suma();
     }
-    
-    
 }
  
 function rellenar(){
