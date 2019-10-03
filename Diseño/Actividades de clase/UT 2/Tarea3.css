@@ -1,0 +1,24 @@
+/*Tarea 3*/
+*{
+    color: #FFF;
+    background-color: #333;
+    font-family: Georgia, Cambira, serif;
+    size: 16px;
+}
+
+h1{
+    color: #A0A;
+    font-family: Verdana, Calibri, sans-serif;
+    size: 32px;
+}
+
+h2{
+    color: #FFE;
+    font-family: Verdana, Calibri, sans-serif;
+    size: 24px;
+}
+
+li{
+    color: #99C;
+}
+

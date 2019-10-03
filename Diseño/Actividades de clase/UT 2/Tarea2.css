@@ -1,0 +1,39 @@
+/*Tarea 2*/
+#titulo{
+    color: teal;
+}
+
+strong{
+    color: red;
+}
+
+.destacado{
+    color: orange;
+}
+
+#subtitulo{
+    color: blue;
+}
+
+a{
+    color: red;
+}
+
+em{
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.especial{
+    color: purple;
+}
+
+#adicional{
+    border: 2px dotted black;
+    color: olive
+}
+
+#especial{
+    color: fuchsia;
+}

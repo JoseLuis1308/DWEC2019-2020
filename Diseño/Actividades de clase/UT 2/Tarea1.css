@@ -1,0 +1,33 @@
+/*Tarea 1*/
+*{
+    font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: #555;
+}
+
+#primero >p{ /* Esto indica que  lo que hay a la izquierda afecta a lo 
+    de la derecha si esta dentro de el independientemente de sus caracteristicas normales*/
+  color: #369;
+}
+
+a{
+    color: #C30;
+}
+
+#primero >p>em{
+    color: #0000BB;
+    background-color: #FFFFCC;
+  }
+  
+
+.especial{
+    color: #FFFF00;
+  background: #000000;
+}
+
+.normal{
+    font-weight: bold;
+}
