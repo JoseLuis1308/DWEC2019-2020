@@ -17,9 +17,11 @@ a{
     color: #C30;
 }
 
-#primero >p>em{
+#primero em{ /*Con esto no es necesario que sea descendente directo, 
+  mientras que sea descendiente se verá afectado */
     color: #0000BB;
     background-color: #FFFFCC;
+    font-weight: bold;
   }
   
 

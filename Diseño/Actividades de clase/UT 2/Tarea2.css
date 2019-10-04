@@ -30,10 +30,14 @@ em{
 }
 
 #adicional{
-    border: 2px dotted black;
+    border: 1px dashed black;
     color: olive
 }
 
 #especial{
     color: fuchsia;
+}
+
+#adicional a{
+    color: green;
 }

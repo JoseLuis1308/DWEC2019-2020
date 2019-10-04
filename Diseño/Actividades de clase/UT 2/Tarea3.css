@@ -3,22 +3,32 @@
     color: #FFF;
     background-color: #333;
     font-family: Georgia, Cambira, serif;
-    size: 16px;
+    font-size: 16px;
 }
 
 h1{
     color: #A0A;
     font-family: Verdana, Calibri, sans-serif;
-    size: 32px;
+    font-size: 32px;
 }
 
 h2{
     color: #FFE;
     font-family: Verdana, Calibri, sans-serif;
-    size: 24px;
+    font-size: 24px;
 }
 
-li{
+.datos{
     color: #99C;
 }
 
+.sustantivos{
+    size: 20px;
+    font-weight: bold;/*Tambien es etiqueta strong*/
+}
+
+.especial{
+    background-color: #99C;
+    color: white;
+    font-style: italic;/*Tambien es etiqueta i*/
+}

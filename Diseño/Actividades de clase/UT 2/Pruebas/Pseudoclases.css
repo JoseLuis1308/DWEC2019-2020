@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    background-color: aqua;
+    font-size: 25px;
+}
+
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color:  lightseagreen;
+}
+
+.cuadrado:active{
+    background-color: blueviolet;
+}
+
+.cuadrado:hover{
+    width: 200px;
+    height: 200px;
+ 
+}
+
+p:first-letter{
+    font-size: 20px;
+    color: green;
+}
+
+p:first-line{
+    font-size: 10.px;
+    color: brown;
+}
