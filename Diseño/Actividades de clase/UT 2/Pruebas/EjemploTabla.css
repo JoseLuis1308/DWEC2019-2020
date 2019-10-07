@@ -1,0 +1,42 @@
+/*Tabla*/
+
+td:first-child{
+    color: rgb(224, 224, 224);
+}
+th{
+    color: rgb(104, 150, 150);
+    background-color: rgb(40, 40, 44)
+}
+tr:nth-child(odd){
+    background-color: rgb(31, 68, 68);
+    color: white;
+}
+tr:nth-child(even){
+    background-color: rgb(128, 145, 145);
+}
+
+
+.fondo:hover{
+    background-color: rgb(138, 133, 86);
+   
+}
+
+td:hover{
+    background-color: rgb(207, 207, 44);
+    box-shadow: #7f7c21 -6px, 6px;
+    transform: translate3d(5px, -5px, 0);
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: line;
+}
+ td:first-child:hover{
+    color: white;
+    background-color: rgb(207, 207, 44);
+    box-shadow: #7f7c21 -6px, 6px;
+    transform: translate3d(6px, -6px,0);
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: line;
+}
