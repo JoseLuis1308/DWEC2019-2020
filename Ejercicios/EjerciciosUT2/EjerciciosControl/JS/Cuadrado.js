@@ -37,7 +37,6 @@ for(let i=1;i<=FILAS;i++){
         }else{
             tabla+="<td></td>";
         }
-
     }
     tabla+="</tr>";
 }
