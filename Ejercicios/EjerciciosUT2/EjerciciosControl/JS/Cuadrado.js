@@ -1,18 +1,9 @@
 var btnRellenar=document.getElementById("Rellenar");
 var btnCalcular=document.getElementById("Calcular");
-const FILAS=7;
+const FILAS=3;
 var cont=1;
 var tabla="<table border='1'>";
-var max=0;
-if(FILAS>3){
-    max=(FILAS*4)-4;
-}else if(FILAS==3){
-    max=FILAS**2-1;
-}else if(FILAS==2){
-    max=FILAS**2;
-}else{
-    max=1;
-}
+var max=(FILAS*4)-4;
 var cont2=max;
 
 btnRellenar.addEventListener("click", pintar);
