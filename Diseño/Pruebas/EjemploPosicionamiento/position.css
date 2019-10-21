@@ -1,0 +1,45 @@
+#contenedor{
+    width: 8000;
+    border: 2px black solid;
+    position: relative;
+
+}
+
+div #div1, #div2, #div3, #div4, #div5{
+width: 400px;
+height: 200px;
+}
+
+#div1{
+    background-color: lightskyblue;
+    position: static;
+}
+
+#div2{
+    background-color: lightseagreen;
+    position: relative;
+    top:100px;
+    left: 50px;
+}
+
+#div3{
+    background-color: palegreen;
+    position: absolute;
+    top:100px;
+    left: 50px;
+
+}
+
+#div4{
+    background-color: lightsalmon;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+#div5{
+    background-color:palevioletred;
+    position: sticky;
+    top: 0px;
+    left:0px;
+}

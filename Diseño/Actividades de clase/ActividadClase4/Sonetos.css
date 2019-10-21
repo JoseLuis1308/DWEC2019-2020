@@ -1,0 +1,51 @@
+body{
+    background-size: 100px;
+    background-image: url(fondos/corazon-1.svg), url(fondos/corazon-2.svg);
+    
+    background-repeat: repeat-y;
+    background-position: left, right;
+    background-color: lightpink;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+div{
+    border: 2px #000000 solid ;
+    margin: 10px;
+    font-size: 1.25rem;
+}
+#soneto1{
+    background-size: 100px;
+    background-image: url(fondos/manchas.png);
+    background-repeat: repeat;
+    color: white;
+}
+
+#soneto2{
+    background-size: 100px;
+    border: 2px black solid ;
+    background-image: url(fondos/fuego.svg),url(fondos/fuego.svg),url(fondos/tallos.jpg);
+    background-position: bottom left, bottom right, center;
+    background-repeat:no-repeat;
+    background-size: 50px, 50px,cover;
+    color: yellow;
+    text-align: center;
+}
+
+#soneto3{
+    background-image: url(fondos/ojo.svg), url(fondos/hexagonos.jpg);
+    background-repeat: no-repeat,repeat;
+    background-position: center;
+    color: darkred;
+}
+
+#soneto4{
+    background-image: url(fondos/caballo.svg), url(fondos/estrellas.png);
+    background-size: 80px;
+    background-repeat: repeat-x,repeat;
+    background-position: bottom center;
+    color: darkgreen;
+    padding-bottom: 50px;
+}

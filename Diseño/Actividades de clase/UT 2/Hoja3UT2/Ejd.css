@@ -1,0 +1,30 @@
+div{
+    font-size: 50px;
+    width: 500px;
+}
+
+#ext{
+    border: black 20px solid;
+    padding: 20px
+}
+
+#int{
+    border: dashed black 3px;
+}
+
+div:hover{
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    transition: 0.5s;;
+}
+
+#ext:hover{
+    border: teal 30px solid;
+    padding: 20px;
+    
+}
+
+#int:hover{
+    border: solid black 3px;
+}

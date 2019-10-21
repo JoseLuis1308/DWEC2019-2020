@@ -1,0 +1,26 @@
+img{
+    display: block;
+    margin: auto;
+}
+
+@font-face{
+    font-family: 'BlackVosten';
+    src: url(../EjerciciosPosicionamiento/fonts/Black\ Vosten\ Personal\ Use.otf);
+}
+h1{
+    font-family: 'BlackVosten';
+}
+p{
+    font-family: 'Mansalva', cursive;
+}
+
+#p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    /*font-stretch: ultra-expanded;*/
+    text-indent: 40px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    word-spacing: 30px;
+    text-shadow: 4px 3px lightblue;
+}

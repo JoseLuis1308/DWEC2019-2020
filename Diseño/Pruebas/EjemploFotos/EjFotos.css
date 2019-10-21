@@ -1,0 +1,38 @@
+.div1{
+    /*background-image: url("Imagenes/índice.jpg");*/
+    background-image: url("https://images.vexels.com/media/users/3/137419/isolated/preview/b1a3fab214230557053ed1c4bf17b46c-icono-de-twitter-logo-by-vexels.png"),url("https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/5d137e105cafe826be509e41/buho0.jpg") ;
+
+    background-repeat: no-repeat;
+    background-color: rgb(63, 109, 21);
+    background-position: center;
+    background-size: 100px, cover ;
+    background-position: bottom center, center;
+    width: 500px;
+    height: 500px;
+}
+
+.borderbox{
+    width: 500px;
+    height: 200px;
+    border: 5px dotted black;
+    background-color: orange;
+    background-clip: border-box;
+    padding: 5px;
+}
+.contentbox{
+    width: 500px;
+    height: 200px;
+    border: 5px dotted black;
+    background-color: orange;
+    background-clip: content-box;
+    padding: 5px;
+}
+
+.paddingbox{
+    width: 500px;
+    height: 200px;
+    border: 5px dotted black;
+    background-color: orange;
+    background-clip: padding-box;
+    padding: 5px;
+}

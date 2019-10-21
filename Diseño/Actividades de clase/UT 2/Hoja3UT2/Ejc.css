@@ -1,0 +1,22 @@
+
+.contenedor{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    color: white;
+    margin-right: 3px;
+    display: inline-block;
+}
+.cabecera{
+    background-color: darkblue;
+    border: 1px white dotted;
+
+}
+
+.cabecera:hover{
+    background-color: green;
+}
+
+a:link{
+    color: white;
+}

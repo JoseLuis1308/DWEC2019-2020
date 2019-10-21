@@ -1,0 +1,40 @@
+
+div{
+    color: white;
+    border:1px solid black;
+    padding: 5px;
+    display: inline-block  ;
+
+}
+
+#azul{
+    background-color: blue;
+    border:1px solid white;
+    width: 100px;
+    padding: 5px;
+
+
+}
+#verde{
+    background-color: green;
+    border:1px solid white;
+    width: 100px;
+    padding: 5px;
+
+
+}
+#rojo{
+    background-color: red;
+    border:1px solid white;
+    width: 100px;
+
+
+}
+#negro{
+    background-color: black;
+    border:1px solid white;
+    width: 100px;
+    padding: 5px;
+
+
+}
