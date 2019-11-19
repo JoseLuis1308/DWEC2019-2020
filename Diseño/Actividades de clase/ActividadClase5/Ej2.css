@@ -1,0 +1,27 @@
+li{
+    background-color: lightgray;
+    border: solid darkgray 1px;
+    background-image: url("Logos/arrow-icon-transparent-background-4.jpg.png");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-size: 20px;
+    list-style-type: none;
+    width: 200px;
+    
+}
+
+li:hover{
+    background-color: rgb(105, 105, 105);
+    border: solid rgb(99, 99, 99) 1px;
+    background-image: url("Logos/arrow-icon-notransparent-background-4.jpg.png");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-size: 20px;
+    list-style-type: none;
+    width: 200px;
+}
+a{
+  text-decoration: none;
+  color: black;  
+    
+}

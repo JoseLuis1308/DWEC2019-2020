@@ -1,0 +1,25 @@
+.contenedor{
+    height: 400px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/  /*Para que funcione flex-shrink no puede estar la propiedad wrap, además, hay que darle un tamaño con flex basis*/
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.item{
+    background-color: lightsalmon;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+    /*flex-grow: 1;*/
+    flex-basis: 300px;
+    flex-shrink: 1;
+}
+
+#item4{
+   /* align-self: flex-start;*/
+   /* flex-grow: 2;*/
+   flex-shrink: 5;
+}

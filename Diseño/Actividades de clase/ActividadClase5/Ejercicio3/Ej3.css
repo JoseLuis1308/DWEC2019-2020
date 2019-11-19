@@ -1,0 +1,128 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+   
+}
+ul{
+position: fixed;
+top: 0px;
+left: 0px;
+margin: 0;
+padding: 0%;
+width: 25%;
+height: 100%;
+background-color: gray;
+}
+
+li{
+    
+    background-color: rgb(71, 71, 71);
+    list-style-type: none;
+    border: black solid 1px;
+    overflow: auto;
+}
+
+a{
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 30px;
+    display: block;
+    color: white;
+    text-decoration: none;
+
+}
+
+#cabecera{
+    color: white;
+    font-size: 2em;
+    letter-spacing: 5px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+#dash{
+    background-image: url("iconos/23681.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 0px;
+}
+
+#statis{
+    background-image: url("iconos/69366.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 0px;
+}
+
+#miles{
+    background-image: url("iconos/Facebook-símbolo.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 0px;
+}
+
+#exper{
+    background-image: url("iconos/Healthy\ Food\ Logo.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 0px;
+}
+
+a:hover{
+    background-color: rgb(109, 80, 80);
+}
+
+
+a:active{
+    background-color: indianred;
+}
+
+#liactivo{
+    background-color: rgb(96, 155, 120);
+    list-style-type: none;
+    border: black solid 1px;
+   overflow: auto;
+}
+
+#pag1{
+    padding-left: 25%;
+    margin-left: 25%;
+    width: 75%;
+    height: 100%;
+    background-image: url("https://1uy3cq2n2f9g3qnq4h2b79im-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/panda-rojo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#pag2{
+    padding-left: 25%;
+    margin-left: 25%;
+    width: 75%;
+    height: 100%;
+    background-image: url("https://www.hakaimagazine.com/wp-content/uploads/aafc_banner.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#pag3{
+    padding-left: 25%;
+    margin-left: 25%;
+    width: 75%;
+    height: 100%;
+    background-image: url("https://jerseyeveningpost.com/resizer/N5otY6LzLOzFuHWhTIfewrwSQ3I=/1000x0/filters:quality(100)/arc-anglerfish-arc2-prod-jerseyeveningpost-mna.s3.amazonaws.com/public/2TPBB6ZEE5D5DNP5SFLDJRO6YM.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pag4{
+    padding-left: 25%;
+    margin-left: 25%;
+    width: 75%;
+    height: 100%;
+     background-image: url("http://static1.squarespace.com/static/5c8a8581d7819e10d77c4d8e/5c8a93f87817f7f1a539ac13/5c9ea47d1905f4c611a4f4fa/1553900893938/great-horned-owl.jpg?format=1500w");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

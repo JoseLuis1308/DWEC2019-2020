@@ -1,0 +1,55 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#titulo{
+    padding: 10px;
+    font-size: 2em;
+    background-color: black;
+    color: white;
+}
+
+#contenedor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.caja{
+    width: 300px;
+    display: flex;
+    flex-direction: row; 
+    border: 3px solid black;
+    margin: 0;
+
+}
+
+
+img{
+height: 100%;
+width:40%;
+}
+
+.nombre{
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align:center ;
+    margin:0px;   
+}
+
+.parte{
+
+    display: flex;
+    flex-direction: column; 
+}
+
+.texto{
+    margin:0px;
+}

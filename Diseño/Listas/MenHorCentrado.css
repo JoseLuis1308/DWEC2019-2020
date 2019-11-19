@@ -1,0 +1,28 @@
+ul{
+    text-align: center;
+}
+
+li{
+   display: inline;
+}
+
+li a{
+    color: #000;
+    padding: 8px 10%;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #555;
+    color: white;
+}
+.derecha{
+    padding: 8px 10%;
+    background-color: lightgreen;
+    float: right;
+}
+
+.derecha:hover{
+    background-color: #555;
+    color: white;
+}

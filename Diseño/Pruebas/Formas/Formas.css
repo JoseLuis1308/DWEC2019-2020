@@ -1,0 +1,80 @@
+div{
+    margin: 5px;
+}
+#cuadrado{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+#triangulo{
+    width: 0;
+    height: 0;
+    border-left: 100px solid black;
+    border-top:50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+#triangulo2{
+    width: 0;
+    height: 0;
+    border-top: 100px solid black;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    
+}
+
+#trianguloRect{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid black;
+    border-left: 100px solid black;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+}
+
+#trapecio{
+    width: 100px;
+    height: 0;
+    
+    border-left: 40px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 100px solid black;
+}
+
+#circulo{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#elipse{
+    height: 100px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#cuartoCirculo{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 0% 100% 0% 0%;
+}
+#semicirculo{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    border-radius: 100px 100px 0% 0%;
+}
+
+#comeCocos{
+   width: 0;
+   height: 0;
+   
+   border-radius: 50%;
+   border-bottom: 100px solid black;
+   border-left: 100px solid black;
+   border-right: 100px solid transparent;
+   border-top: 100px solid black;
+}

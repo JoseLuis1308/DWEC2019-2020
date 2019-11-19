@@ -1,0 +1,31 @@
+div{
+   
+    text-align: center;
+}
+li{
+    margin: 5px;
+    display:inline-block;
+        list-style-type: none;
+}
+a{
+    background-color: tomato;
+    border: solid rgb(128, 49, 35) 1px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#e1:hover{
+    background-color:rgb(128, 49, 35);
+    border: solid rgb(71, 27, 19) 1px;
+}
+
+#e2:visited{
+    background-color: rgb(19, 104, 71);
+    border: solid rgb(15, 77, 56) 1px;
+}
+
+#e3:active{
+    background-color: rgb(151, 63, 139);
+    border: solid rgb(90, 31, 80) 1px;
+}

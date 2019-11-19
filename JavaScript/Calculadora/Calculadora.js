@@ -1,0 +1,1 @@
+var basica=document.getElementById("basica");
