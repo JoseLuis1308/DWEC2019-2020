@@ -15,7 +15,6 @@ btnJugar.addEventListener("click", function (e){fJuego()});//utilizo una funció
  *
  * Hace que se generen los datos y campos del html necesarios para que empiece el juego.
  * Se genera la palabra, y la palabra censurada, además de los botones de las letras. 
- * 
  */
 var fJuego= () => 
     {
